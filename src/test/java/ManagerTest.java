@@ -40,7 +40,7 @@ public class ManagerTest {
         assertEquals(12.00,manager.getSalary(), 0.01);
 
     }
-    
+
     @Test
     public void canPayBonus(){
         double bonus = manager.payBonus();
